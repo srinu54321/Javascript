@@ -1,13 +1,35 @@
-let marks=prompt("enter the student'marks ")
-if(marks>90){
-    console.log("the studnet is pass in first class")
+// const d1=new Date().getHours();
+// const d2=new Date().getMinutes();
+// const d3=new Date().getSeconds();
+// const d4=new Date().getMilliseconds();
+// console.log(d1+":"+d2+':'+d3+":"+d4);
+
+let day;
+switch (new Date().getDay()) {
+    case 0:
+        day="sunday";
+        break;
+    case 1:
+        day="Monday";
+        break;
+        default:
+        day="this is not the currect day";
+        break;
+    case 2:
+        day="Tuesday";
+        break;
+    case 3:
+        day="Wednesday";
+        break;
+    case 4:
+        day="Thursday";
+        break;
+    case 5:
+        day="Friday";
+        break;
+    case 6:
+        day="Saturday";
+        break;  
+    
 }
-else if(marks>80){
-    console.log("the studen is pass with second class ")
-}
-else if(marks>70){
-    console.log("the student is pass with the third class ")
-}  
-else{
-    console.log("the student is just pass and the student is avarage ")
-}
+document.getElementById("demo").innerHTML='thsi is '+day;

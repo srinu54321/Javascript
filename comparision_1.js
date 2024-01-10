@@ -7,6 +7,8 @@ function myfunction(){
         else{
            voteble= (a>=18) ? "voteble":"not able to vote ";
            document.getElementById('demo').innerHTML=voteble;
+           
         }
 }
 
+new Date().getMilliseconds
