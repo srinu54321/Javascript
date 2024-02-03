@@ -1,7 +1,5 @@
-let N=prompt("enter the no. for the adding  of the numbers ")
-let sum=0;
-for(let i=1;i<=N;i++){
-    sum=sum+i;
-
+let s="";
+for(let i=0;i<10;i++){
+    s=s+i;
 }
-console.log(sum)
+document.getElementById('demo').innerHTML=s;
